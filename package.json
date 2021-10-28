@@ -1,0 +1,17 @@
+{
+  "name": "minimal-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/styles.css -o ./build/styles.css --JIT --purge='*.html'",
+    "dev": "npx tailwindcss -i ./src/styles.css -o ./build/styles.css --JIT --purge='*.html' --watch",
+    "build:full": "npx tailwindcss -i ./src/styles.css -o ./build/styles.css"
+  },
+  "keywords": [],
+  "author": "Bernardo Torres",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^2.2.17"
+  }
+}
